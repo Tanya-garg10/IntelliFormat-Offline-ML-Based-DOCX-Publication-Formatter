@@ -1,5 +1,5 @@
 # Multi-stage build for IntelliFormat - Offline ML-Based DOCX Publication Formatter
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 # Install Python and build dependencies
 RUN apk add --no-cache python3 py3-pip python3-dev gcc g++ musl-dev
@@ -23,10 +23,10 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:18-alpine
+FROM node:20-alpine
 
-# Install Python runtime
-RUN apk add --no-cache python3 py3-pip
+# Install Python runtime and build dependencies for scikit-learn
+RUN apk add --no-cache python3 py3-pip python3-dev gcc g++ musl-dev
 
 WORKDIR /app
 
