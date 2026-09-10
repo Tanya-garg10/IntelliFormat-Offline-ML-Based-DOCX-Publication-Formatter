@@ -1,0 +1,274 @@
+text,font_size,bold,italic,alignment,word_count,char_count,uppercase_ratio,starts_with_number,starts_with_chapter,starts_with_figure,starts_with_table,has_citation,position_ratio,label
+Principles of Quantum Computing and Information Systems,18.0,1,0,1,7,55,0.091,0,0,0,0,0,0.0011,TITLE
+A Comprehensive Guide to Modern Distributed Systems and Cloud Architecture,20.0,1,0,0,10,74,0.108,0,0,0,0,0,0.0115,TITLE
+Machine Learning Foundations: From Statistical Inference to Neural Networks,16.0,1,0,1,9,75,0.107,0,0,0,0,0,0.0063,TITLE
+Advances in Applied Linguistics and Computational Natural Language Processing,16.0,1,0,1,9,77,0.091,0,0,0,0,0,0.0055,TITLE
+The Evolution of High-Performance Scientific Computing,24.0,1,0,1,6,54,0.111,0,0,0,0,0,0.0003,TITLE
+Stochastic Processes and Financial Mathematics for Modern Economics,16.0,1,0,1,8,67,0.09,0,0,0,0,0,0.0184,TITLE
+"Autonomous Robotics: Navigation, Perception and Control Systems",18.0,1,0,1,7,63,0.095,0,0,0,0,0,0.0093,TITLE
+Biochemical Engineering and Cellular Metabolic Networks,20.0,1,0,1,6,55,0.091,0,0,0,0,0,0.0134,TITLE
+Contemporary Perspectives in European Economic History,18.0,1,0,0,6,54,0.093,0,0,0,0,0,0.0182,TITLE
+Modern Cryptographic Protocols and Zero-Knowledge Proof Systems,20.0,1,0,0,7,63,0.111,0,0,0,0,0,0.016,TITLE
+"Dr. Elizabeth J. Henderson, Professor of Computer Science, MIT",11.0,1,0,1,9,62,0.161,0,0,0,0,0,0.0338,AUTHOR
+"Marcus Vance, Ph.D. and Sarah Lindqvist, Department of Mathematics, Stanford University",11.0,1,0,0,11,87,0.115,0,0,0,0,0,0.0279,AUTHOR
+"Prof. Alexander Chen, Institute for Advanced Study, Princeton",10.0,1,1,0,8,61,0.115,0,0,0,0,0,0.026,AUTHOR
+"Elena Rostova, M.Sc., Johannes Gutenberg University Mainz",10.0,0,1,1,7,57,0.14,0,0,0,0,0,0.0112,AUTHOR
+"David K. Miller, Senior Research Fellow, Alan Turing Institute, London",12.0,0,1,1,10,70,0.143,0,0,0,0,0,0.0164,AUTHOR
+"Prof. Hiroshi Tanaka & Dr. Kenji Sato, University of Tokyo",12.0,0,1,1,10,58,0.138,0,0,0,0,0,0.0153,AUTHOR
+"Amara Okafor, Ph.D., Department of Physics, Oxford University",11.0,0,1,0,8,61,0.131,0,0,0,0,0,0.0295,AUTHOR
+"Dr. Robert J. Oppenheim and Prof. Claire Delacroix, Sorbonne Université",12.0,1,0,0,10,71,0.127,0,0,0,0,0,0.0167,AUTHOR
+"J. K. Rowling and Arthur Conan Doyle, Literary Research Society",12.0,0,1,1,10,63,0.143,0,0,0,0,0,0.032,AUTHOR
+"Benjamin S. Franklin and Marie Curie, Laboratory of Physical Chemistry",12.0,0,1,0,10,70,0.114,0,0,0,0,0,0.0196,AUTHOR
+Chapter 1: Introduction to Offline Document Processing Systems,18.0,1,0,1,8,62,0.097,0,1,0,0,0,0.821,CHAPTER_HEADING
+Chapter 1: Introduction to Offline Document Processing Systems,18.0,1,0,1,8,62,0.097,0,1,0,0,0,0.4284,CHAPTER_HEADING
+Chapter 1: Introduction to Offline Document Processing Systems,14.0,1,0,0,8,62,0.097,0,1,0,0,0,0.7767,CHAPTER_HEADING
+Chapter 2: Mathematical Foundations and Linear Algebra Primitives,15.0,1,0,0,8,65,0.092,0,1,0,0,0,0.3671,CHAPTER_HEADING
+Chapter 2: Mathematical Foundations and Linear Algebra Primitives,16.0,1,0,0,8,65,0.092,0,1,0,0,0,0.3552,CHAPTER_HEADING
+Chapter 2: Mathematical Foundations and Linear Algebra Primitives,18.0,1,0,0,8,65,0.092,0,1,0,0,0,0.1442,CHAPTER_HEADING
+CHAPTER 3: STATISTICAL INFERENCE AND MAXIMUM LIKELIHOOD ESTIMATION,14.0,1,0,0,8,66,0.864,0,1,0,0,0,0.3358,CHAPTER_HEADING
+CHAPTER 3: STATISTICAL INFERENCE AND MAXIMUM LIKELIHOOD ESTIMATION,18.0,1,0,1,8,66,0.864,0,1,0,0,0,0.8055,CHAPTER_HEADING
+CHAPTER 3: STATISTICAL INFERENCE AND MAXIMUM LIKELIHOOD ESTIMATION,16.0,1,0,1,8,66,0.864,0,1,0,0,0,0.3764,CHAPTER_HEADING
+Chapter IV: High-Dimensional Feature Extraction and Representation,15.0,1,0,1,7,66,0.121,0,1,0,0,0,0.5746,CHAPTER_HEADING
+Chapter IV: High-Dimensional Feature Extraction and Representation,16.0,1,0,1,7,66,0.121,0,1,0,0,0,0.7979,CHAPTER_HEADING
+Chapter IV: High-Dimensional Feature Extraction and Representation,15.0,1,0,0,7,66,0.121,0,1,0,0,0,0.6154,CHAPTER_HEADING
+Chapter 5: Architectural Patterns in Scalable Software Engineering,15.0,1,0,0,8,66,0.091,0,1,0,0,0,0.3848,CHAPTER_HEADING
+Chapter 5: Architectural Patterns in Scalable Software Engineering,18.0,1,0,1,8,66,0.091,0,1,0,0,0,0.349,CHAPTER_HEADING
+Chapter 5: Architectural Patterns in Scalable Software Engineering,15.0,1,0,1,8,66,0.091,0,1,0,0,0,0.4035,CHAPTER_HEADING
+CHAPTER 6: DESIGN PATTERNS FOR DOCUMENT OBJECT MODEL MANIPULATION,16.0,1,0,1,9,65,0.846,0,1,0,0,0,0.5953,CHAPTER_HEADING
+CHAPTER 6: DESIGN PATTERNS FOR DOCUMENT OBJECT MODEL MANIPULATION,14.0,1,0,0,9,65,0.846,0,1,0,0,0,0.5622,CHAPTER_HEADING
+CHAPTER 6: DESIGN PATTERNS FOR DOCUMENT OBJECT MODEL MANIPULATION,16.0,1,0,1,9,65,0.846,0,1,0,0,0,0.3745,CHAPTER_HEADING
+"Chapter 7: Evaluation Frameworks, Precision-Recall Metrics and Validation",16.0,1,0,1,8,73,0.096,0,1,0,0,0,0.8826,CHAPTER_HEADING
+"Chapter 7: Evaluation Frameworks, Precision-Recall Metrics and Validation",14.0,1,0,1,8,73,0.096,0,1,0,0,0,0.6208,CHAPTER_HEADING
+"Chapter 7: Evaluation Frameworks, Precision-Recall Metrics and Validation",15.0,1,0,0,8,73,0.096,0,1,0,0,0,0.4928,CHAPTER_HEADING
+Chapter 8: Robust Error Handling and Fault Tolerant Data Pipelines,14.0,1,0,0,10,66,0.121,0,1,0,0,0,0.3736,CHAPTER_HEADING
+Chapter 8: Robust Error Handling and Fault Tolerant Data Pipelines,15.0,1,0,1,10,66,0.121,0,1,0,0,0,0.0896,CHAPTER_HEADING
+Chapter 8: Robust Error Handling and Fault Tolerant Data Pipelines,14.0,1,0,0,10,66,0.121,0,1,0,0,0,0.8439,CHAPTER_HEADING
+"Chapter IX: Concurrency, Memory Profiling and Latency Optimization",14.0,1,0,1,8,66,0.121,0,1,0,0,0,0.1148,CHAPTER_HEADING
+"Chapter IX: Concurrency, Memory Profiling and Latency Optimization",16.0,1,0,0,8,66,0.121,0,1,0,0,0,0.0713,CHAPTER_HEADING
+"Chapter IX: Concurrency, Memory Profiling and Latency Optimization",15.0,1,0,0,8,66,0.121,0,1,0,0,0,0.5244,CHAPTER_HEADING
+Chapter 10: Comparative Analysis and Production Deployment Case Studies,16.0,1,0,0,9,71,0.099,0,1,0,0,0,0.0761,CHAPTER_HEADING
+Chapter 10: Comparative Analysis and Production Deployment Case Studies,16.0,1,0,0,9,71,0.099,0,1,0,0,0,0.8601,CHAPTER_HEADING
+Chapter 10: Comparative Analysis and Production Deployment Case Studies,18.0,1,0,0,9,71,0.099,0,1,0,0,0,0.3214,CHAPTER_HEADING
+Chapter 11: Real-World Case Studies in Academic Publishing Automation,15.0,1,0,0,9,69,0.116,0,1,0,0,0,0.4612,CHAPTER_HEADING
+Chapter 11: Real-World Case Studies in Academic Publishing Automation,15.0,1,0,0,9,69,0.116,0,1,0,0,0,0.0854,CHAPTER_HEADING
+Chapter 11: Real-World Case Studies in Academic Publishing Automation,18.0,1,0,0,9,69,0.116,0,1,0,0,0,0.658,CHAPTER_HEADING
+Chapter 12: Future Directions and Non-Generative Machine Learning Frontiers,18.0,1,0,1,9,75,0.107,0,1,0,0,0,0.869,CHAPTER_HEADING
+Chapter 12: Future Directions and Non-Generative Machine Learning Frontiers,15.0,1,0,0,9,75,0.107,0,1,0,0,0,0.8482,CHAPTER_HEADING
+Chapter 12: Future Directions and Non-Generative Machine Learning Frontiers,16.0,1,0,1,9,75,0.107,0,1,0,0,0,0.4945,CHAPTER_HEADING
+1.1 Historical Background and Early Computer Typography,14.0,0,0,0,7,55,0.091,1,0,0,0,0,0.4936,SUBHEADING
+1.1 Historical Background and Early Computer Typography,14.0,1,1,0,7,55,0.091,1,0,0,0,0,0.7828,SUBHEADING
+1.1 Historical Background and Early Computer Typography,12.0,1,0,0,7,55,0.091,1,0,0,0,0,0.2546,SUBHEADING
+1.2 Motivation and Problem Statement for Autonomous Formatter,12.0,0,0,0,8,61,0.082,1,0,0,0,0,0.3418,SUBHEADING
+1.2 Motivation and Problem Statement for Autonomous Formatter,14.0,1,1,0,8,61,0.082,1,0,0,0,0,0.3497,SUBHEADING
+1.2 Motivation and Problem Statement for Autonomous Formatter,13.0,1,1,0,8,61,0.082,1,0,0,0,0,0.5913,SUBHEADING
+"2.1 Vector Spaces, Norms, and Orthogonal Projections",13.0,1,0,0,7,52,0.096,1,0,0,0,0,0.7712,SUBHEADING
+"2.1 Vector Spaces, Norms, and Orthogonal Projections",14.0,1,1,0,7,52,0.096,1,0,0,0,0,0.1895,SUBHEADING
+"2.1 Vector Spaces, Norms, and Orthogonal Projections",12.0,0,1,0,7,52,0.096,1,0,0,0,0,0.187,SUBHEADING
+2.2 Singular Value Decomposition and Principal Component Analysis,12.0,1,0,0,8,65,0.092,1,0,0,0,0,0.5125,SUBHEADING
+2.2 Singular Value Decomposition and Principal Component Analysis,14.0,1,0,0,8,65,0.092,1,0,0,0,0,0.8534,SUBHEADING
+2.2 Singular Value Decomposition and Principal Component Analysis,13.0,1,1,0,8,65,0.092,1,0,0,0,0,0.7743,SUBHEADING
+3.1 Hypothesis Testing and Confidence Interval Formulations,14.0,1,1,0,7,59,0.085,1,0,0,0,0,0.209,SUBHEADING
+3.1 Hypothesis Testing and Confidence Interval Formulations,13.0,1,0,0,7,59,0.085,1,0,0,0,0,0.3671,SUBHEADING
+3.1 Hypothesis Testing and Confidence Interval Formulations,14.0,1,0,0,7,59,0.085,1,0,0,0,0,0.4817,SUBHEADING
+3.2 The Asymptotic Properties of Estimators in Finite Samples,13.0,1,0,0,9,61,0.098,1,0,0,0,0,0.5341,SUBHEADING
+3.2 The Asymptotic Properties of Estimators in Finite Samples,14.0,0,1,0,9,61,0.098,1,0,0,0,0,0.4934,SUBHEADING
+3.2 The Asymptotic Properties of Estimators in Finite Samples,14.0,1,1,0,9,61,0.098,1,0,0,0,0,0.7637,SUBHEADING
+"4.1 Tokenization, Morphological Analysis, and Punctuation Ratios",14.0,0,0,0,7,64,0.078,1,0,0,0,0,0.4248,SUBHEADING
+"4.1 Tokenization, Morphological Analysis, and Punctuation Ratios",13.0,0,0,0,7,64,0.078,1,0,0,0,0,0.6316,SUBHEADING
+"4.1 Tokenization, Morphological Analysis, and Punctuation Ratios",14.0,1,1,0,7,64,0.078,1,0,0,0,0,0.6555,SUBHEADING
+4.2 Typographic Feature Engineering in OpenXML Specifications,14.0,0,0,0,7,61,0.131,1,0,0,0,0,0.7585,SUBHEADING
+4.2 Typographic Feature Engineering in OpenXML Specifications,14.0,1,1,0,7,61,0.131,1,0,0,0,0,0.4022,SUBHEADING
+4.2 Typographic Feature Engineering in OpenXML Specifications,14.0,0,1,0,7,61,0.131,1,0,0,0,0,0.2888,SUBHEADING
+5.1 Separation of Concerns in Pipeline Orchestration,14.0,1,0,0,7,52,0.077,1,0,0,0,0,0.6221,SUBHEADING
+5.1 Separation of Concerns in Pipeline Orchestration,13.0,1,0,0,7,52,0.077,1,0,0,0,0,0.3713,SUBHEADING
+5.1 Separation of Concerns in Pipeline Orchestration,13.0,1,1,0,7,52,0.077,1,0,0,0,0,0.436,SUBHEADING
+5.2 Memory Efficient Streaming for Ultra-Large Word Manuscripts,14.0,0,0,0,8,63,0.111,1,0,0,0,0,0.3878,SUBHEADING
+5.2 Memory Efficient Streaming for Ultra-Large Word Manuscripts,13.0,0,1,0,8,63,0.111,1,0,0,0,0,0.8219,SUBHEADING
+5.2 Memory Efficient Streaming for Ultra-Large Word Manuscripts,13.0,0,0,0,8,63,0.111,1,0,0,0,0,0.2929,SUBHEADING
+6.1 Section Break Semantics and Paragraph Level Inheritance,12.0,1,1,0,8,59,0.102,1,0,0,0,0,0.8465,SUBHEADING
+6.1 Section Break Semantics and Paragraph Level Inheritance,13.0,1,0,0,8,59,0.102,1,0,0,0,0,0.8719,SUBHEADING
+6.1 Section Break Semantics and Paragraph Level Inheritance,12.0,1,1,0,8,59,0.102,1,0,0,0,0,0.8664,SUBHEADING
+7.1 Confusion Matrix Construction and Stratified Cross-Validation,12.0,1,0,0,7,65,0.092,1,0,0,0,0,0.3352,SUBHEADING
+7.1 Confusion Matrix Construction and Stratified Cross-Validation,12.0,1,0,0,7,65,0.092,1,0,0,0,0,0.7114,SUBHEADING
+7.1 Confusion Matrix Construction and Stratified Cross-Validation,14.0,1,1,0,7,65,0.092,1,0,0,0,0,0.2654,SUBHEADING
+"8.1 Handling Malformed XML, Empty Paragraphs and Orphan Runs",14.0,0,1,0,9,60,0.15,1,0,0,0,0,0.4858,SUBHEADING
+"8.1 Handling Malformed XML, Empty Paragraphs and Orphan Runs",14.0,1,1,0,9,60,0.15,1,0,0,0,0,0.7231,SUBHEADING
+"8.1 Handling Malformed XML, Empty Paragraphs and Orphan Runs",14.0,1,0,0,9,60,0.15,1,0,0,0,0,0.1612,SUBHEADING
+"Document processing in academic publishing has historically required intensive human intervention. Typesetters must manually inspect every paragraph, adjust font sizes, apply margins, and verify citation indices across hundreds of pages. In this research monograph, we demonstrate how offline statistical algorithms can automate this workflow with high precision.",12.0,0,0,3,47,363,0.008,0,0,0,0,0,0.1389,BODY
+"Document processing in academic publishing has historically required intensive human intervention. Typesetters must manually inspect every paragraph, adjust font sizes, apply margins, and verify citation indices across hundreds of pages. In this research monograph, we demonstrate how offline statistical algorithms can automate this workflow with high precision.",12.0,0,0,3,47,363,0.008,0,0,0,0,0,0.3446,BODY
+"Document processing in academic publishing has historically required intensive human intervention. Typesetters must manually inspect every paragraph, adjust font sizes, apply margins, and verify citation indices across hundreds of pages. In this research monograph, we demonstrate how offline statistical algorithms can automate this workflow with high precision.",11.5,0,0,3,47,363,0.008,0,0,0,0,0,0.8474,BODY
+"Document processing in academic publishing has historically required intensive human intervention. Typesetters must manually inspect every paragraph, adjust font sizes, apply margins, and verify citation indices across hundreds of pages. In this research monograph, we demonstrate how offline statistical algorithms can automate this workflow with high precision.",11.5,0,0,3,47,363,0.008,0,0,0,0,0,0.9203,BODY
+"Document processing in academic publishing has historically required intensive human intervention. Typesetters must manually inspect every paragraph, adjust font sizes, apply margins, and verify citation indices across hundreds of pages. In this research monograph, we demonstrate how offline statistical algorithms can automate this workflow with high precision.",12.0,0,0,3,47,363,0.008,0,0,0,0,0,0.5824,BODY
+"Document processing in academic publishing has historically required intensive human intervention. Typesetters must manually inspect every paragraph, adjust font sizes, apply margins, and verify citation indices across hundreds of pages. In this research monograph, we demonstrate how offline statistical algorithms can automate this workflow with high precision.",12.0,0,0,0,47,363,0.008,0,0,0,0,0,0.7978,BODY
+"The primary challenge in automated manuscript structuring arises from the ambiguity of formatting styles. An author may format chapter headings using manual bolding, larger font sizes, all-caps styling, or simple paragraph spacing. Our hybrid approach reconciles these variations by combining structural pattern recognition with machine learning classification.",10.5,0,0,3,47,361,0.008,0,0,0,0,0,0.1096,BODY
+"The primary challenge in automated manuscript structuring arises from the ambiguity of formatting styles. An author may format chapter headings using manual bolding, larger font sizes, all-caps styling, or simple paragraph spacing. Our hybrid approach reconciles these variations by combining structural pattern recognition with machine learning classification.",12.0,0,0,0,47,361,0.008,0,0,0,0,0,0.2821,BODY
+"The primary challenge in automated manuscript structuring arises from the ambiguity of formatting styles. An author may format chapter headings using manual bolding, larger font sizes, all-caps styling, or simple paragraph spacing. Our hybrid approach reconciles these variations by combining structural pattern recognition with machine learning classification.",11.0,0,0,0,47,361,0.008,0,0,0,0,0,0.2853,BODY
+"The primary challenge in automated manuscript structuring arises from the ambiguity of formatting styles. An author may format chapter headings using manual bolding, larger font sizes, all-caps styling, or simple paragraph spacing. Our hybrid approach reconciles these variations by combining structural pattern recognition with machine learning classification.",11.5,0,0,0,47,361,0.008,0,0,0,0,0,0.6412,BODY
+"The primary challenge in automated manuscript structuring arises from the ambiguity of formatting styles. An author may format chapter headings using manual bolding, larger font sizes, all-caps styling, or simple paragraph spacing. Our hybrid approach reconciles these variations by combining structural pattern recognition with machine learning classification.",10.5,0,0,0,47,361,0.008,0,0,0,0,0,0.2232,BODY
+"The primary challenge in automated manuscript structuring arises from the ambiguity of formatting styles. An author may format chapter headings using manual bolding, larger font sizes, all-caps styling, or simple paragraph spacing. Our hybrid approach reconciles these variations by combining structural pattern recognition with machine learning classification.",11.0,0,0,3,47,361,0.008,0,0,0,0,0,0.4664,BODY
+"Let X be an n-dimensional feature vector representing a paragraph extracted from the manuscript DOM. The feature space incorporates lexical statistics such as word count and uppercase ratios, alongside layout coordinates like alignment, spacing, and font metrics. Through regularized decision forests, the classifier identifies functional roles without accessing external networks.",10.5,0,0,0,50,381,0.018,0,0,0,0,0,0.7515,BODY
+"Let X be an n-dimensional feature vector representing a paragraph extracted from the manuscript DOM. The feature space incorporates lexical statistics such as word count and uppercase ratios, alongside layout coordinates like alignment, spacing, and font metrics. Through regularized decision forests, the classifier identifies functional roles without accessing external networks.",10.5,0,0,0,50,381,0.018,0,0,0,0,0,0.1225,BODY
+"Let X be an n-dimensional feature vector representing a paragraph extracted from the manuscript DOM. The feature space incorporates lexical statistics such as word count and uppercase ratios, alongside layout coordinates like alignment, spacing, and font metrics. Through regularized decision forests, the classifier identifies functional roles without accessing external networks.",11.5,0,0,3,50,381,0.018,0,0,0,0,0,0.8518,BODY
+"Let X be an n-dimensional feature vector representing a paragraph extracted from the manuscript DOM. The feature space incorporates lexical statistics such as word count and uppercase ratios, alongside layout coordinates like alignment, spacing, and font metrics. Through regularized decision forests, the classifier identifies functional roles without accessing external networks.",11.5,0,0,0,50,381,0.018,0,0,0,0,0,0.2861,BODY
+"Let X be an n-dimensional feature vector representing a paragraph extracted from the manuscript DOM. The feature space incorporates lexical statistics such as word count and uppercase ratios, alongside layout coordinates like alignment, spacing, and font metrics. Through regularized decision forests, the classifier identifies functional roles without accessing external networks.",12.0,0,0,0,50,381,0.018,0,0,0,0,0,0.113,BODY
+"Let X be an n-dimensional feature vector representing a paragraph extracted from the manuscript DOM. The feature space incorporates lexical statistics such as word count and uppercase ratios, alongside layout coordinates like alignment, spacing, and font metrics. Through regularized decision forests, the classifier identifies functional roles without accessing external networks.",10.5,0,0,3,50,381,0.018,0,0,0,0,0,0.4777,BODY
+"In traditional desktop publishing software, document properties are tightly coupled to visual presentation rather than semantic hierarchy. This creates severe inconsistencies when documents are compiled from multiple contributing authors or conference submissions. By enforcing strict publication specifications, uniformity is restored.",10.5,0,0,0,40,336,0.009,0,0,0,0,0,0.2997,BODY
+"In traditional desktop publishing software, document properties are tightly coupled to visual presentation rather than semantic hierarchy. This creates severe inconsistencies when documents are compiled from multiple contributing authors or conference submissions. By enforcing strict publication specifications, uniformity is restored.",11.5,0,0,3,40,336,0.009,0,0,0,0,0,0.7276,BODY
+"In traditional desktop publishing software, document properties are tightly coupled to visual presentation rather than semantic hierarchy. This creates severe inconsistencies when documents are compiled from multiple contributing authors or conference submissions. By enforcing strict publication specifications, uniformity is restored.",11.0,0,0,0,40,336,0.009,0,0,0,0,0,0.7835,BODY
+"In traditional desktop publishing software, document properties are tightly coupled to visual presentation rather than semantic hierarchy. This creates severe inconsistencies when documents are compiled from multiple contributing authors or conference submissions. By enforcing strict publication specifications, uniformity is restored.",10.5,0,0,0,40,336,0.009,0,0,0,0,0,0.6444,BODY
+"In traditional desktop publishing software, document properties are tightly coupled to visual presentation rather than semantic hierarchy. This creates severe inconsistencies when documents are compiled from multiple contributing authors or conference submissions. By enforcing strict publication specifications, uniformity is restored.",11.0,0,0,3,40,336,0.009,0,0,0,0,0,0.2762,BODY
+"In traditional desktop publishing software, document properties are tightly coupled to visual presentation rather than semantic hierarchy. This creates severe inconsistencies when documents are compiled from multiple contributing authors or conference submissions. By enforcing strict publication specifications, uniformity is restored.",11.5,0,0,3,40,336,0.009,0,0,0,0,0,0.5841,BODY
+"Furthermore, memory footprint remains a critical consideration when formatting voluminous 400+ page manuscripts. Inefficient implementations that duplicate entire document trees in memory inevitably cause thrashing or out-of-memory crashes on resource-constrained consumer workstations.",12.0,0,0,3,32,286,0.007,0,0,0,0,0,0.8842,BODY
+"Furthermore, memory footprint remains a critical consideration when formatting voluminous 400+ page manuscripts. Inefficient implementations that duplicate entire document trees in memory inevitably cause thrashing or out-of-memory crashes on resource-constrained consumer workstations.",10.5,0,0,3,32,286,0.007,0,0,0,0,0,0.7567,BODY
+"Furthermore, memory footprint remains a critical consideration when formatting voluminous 400+ page manuscripts. Inefficient implementations that duplicate entire document trees in memory inevitably cause thrashing or out-of-memory crashes on resource-constrained consumer workstations.",11.0,0,0,3,32,286,0.007,0,0,0,0,0,0.4287,BODY
+"Furthermore, memory footprint remains a critical consideration when formatting voluminous 400+ page manuscripts. Inefficient implementations that duplicate entire document trees in memory inevitably cause thrashing or out-of-memory crashes on resource-constrained consumer workstations.",11.0,0,0,0,32,286,0.007,0,0,0,0,0,0.8375,BODY
+"Furthermore, memory footprint remains a critical consideration when formatting voluminous 400+ page manuscripts. Inefficient implementations that duplicate entire document trees in memory inevitably cause thrashing or out-of-memory crashes on resource-constrained consumer workstations.",11.0,0,0,0,32,286,0.007,0,0,0,0,0,0.7853,BODY
+"Furthermore, memory footprint remains a critical consideration when formatting voluminous 400+ page manuscripts. Inefficient implementations that duplicate entire document trees in memory inevitably cause thrashing or out-of-memory crashes on resource-constrained consumer workstations.",12.0,0,0,3,32,286,0.007,0,0,0,0,0,0.87,BODY
+The experimental results presented in Table 4 indicate that the hybrid rule-ML engine maintains consistent throughput of over 500 paragraphs per second. Error rates are minimized by applying context-aware fallback rules whenever the model confidence drops below the acceptable threshold.,11.5,0,0,0,40,287,0.017,0,0,0,0,0,0.8652,BODY
+The experimental results presented in Table 4 indicate that the hybrid rule-ML engine maintains consistent throughput of over 500 paragraphs per second. Error rates are minimized by applying context-aware fallback rules whenever the model confidence drops below the acceptable threshold.,10.5,0,0,0,40,287,0.017,0,0,0,0,0,0.3857,BODY
+The experimental results presented in Table 4 indicate that the hybrid rule-ML engine maintains consistent throughput of over 500 paragraphs per second. Error rates are minimized by applying context-aware fallback rules whenever the model confidence drops below the acceptable threshold.,11.0,0,0,3,40,287,0.017,0,0,0,0,0,0.7877,BODY
+The experimental results presented in Table 4 indicate that the hybrid rule-ML engine maintains consistent throughput of over 500 paragraphs per second. Error rates are minimized by applying context-aware fallback rules whenever the model confidence drops below the acceptable threshold.,11.5,0,0,0,40,287,0.017,0,0,0,0,0,0.694,BODY
+The experimental results presented in Table 4 indicate that the hybrid rule-ML engine maintains consistent throughput of over 500 paragraphs per second. Error rates are minimized by applying context-aware fallback rules whenever the model confidence drops below the acceptable threshold.,11.0,0,0,3,40,287,0.017,0,0,0,0,0,0.0989,BODY
+The experimental results presented in Table 4 indicate that the hybrid rule-ML engine maintains consistent throughput of over 500 paragraphs per second. Error rates are minimized by applying context-aware fallback rules whenever the model confidence drops below the acceptable threshold.,10.5,0,0,0,40,287,0.017,0,0,0,0,0,0.8315,BODY
+"To ensure complete confidentiality for unpublished research and proprietary manuscripts, all computations execute strictly within the local offline environment. No network sockets are opened, and no telemetry data is transmitted to cloud endpoints.",10.5,0,0,3,33,248,0.008,0,0,0,0,0,0.6146,BODY
+"To ensure complete confidentiality for unpublished research and proprietary manuscripts, all computations execute strictly within the local offline environment. No network sockets are opened, and no telemetry data is transmitted to cloud endpoints.",11.0,0,0,0,33,248,0.008,0,0,0,0,0,0.3392,BODY
+"To ensure complete confidentiality for unpublished research and proprietary manuscripts, all computations execute strictly within the local offline environment. No network sockets are opened, and no telemetry data is transmitted to cloud endpoints.",10.5,0,0,0,33,248,0.008,0,0,0,0,0,0.3824,BODY
+"To ensure complete confidentiality for unpublished research and proprietary manuscripts, all computations execute strictly within the local offline environment. No network sockets are opened, and no telemetry data is transmitted to cloud endpoints.",11.5,0,0,0,33,248,0.008,0,0,0,0,0,0.1145,BODY
+"To ensure complete confidentiality for unpublished research and proprietary manuscripts, all computations execute strictly within the local offline environment. No network sockets are opened, and no telemetry data is transmitted to cloud endpoints.",11.5,0,0,3,33,248,0.008,0,0,0,0,0,0.4669,BODY
+"To ensure complete confidentiality for unpublished research and proprietary manuscripts, all computations execute strictly within the local offline environment. No network sockets are opened, and no telemetry data is transmitted to cloud endpoints.",11.0,0,0,3,33,248,0.008,0,0,0,0,0,0.726,BODY
+"The formatting engine operates directly on the underlying OpenXML elements, modifying style properties without altering a single character of the author's prose. This absolute preservation guarantee is vital for academic integrity and publication compliance.",12.0,0,0,3,34,258,0.023,0,0,0,0,0,0.1754,BODY
+"The formatting engine operates directly on the underlying OpenXML elements, modifying style properties without altering a single character of the author's prose. This absolute preservation guarantee is vital for academic integrity and publication compliance.",10.5,0,0,0,34,258,0.023,0,0,0,0,0,0.7169,BODY
+"The formatting engine operates directly on the underlying OpenXML elements, modifying style properties without altering a single character of the author's prose. This absolute preservation guarantee is vital for academic integrity and publication compliance.",11.5,0,0,0,34,258,0.023,0,0,0,0,0,0.4769,BODY
+"The formatting engine operates directly on the underlying OpenXML elements, modifying style properties without altering a single character of the author's prose. This absolute preservation guarantee is vital for academic integrity and publication compliance.",11.0,0,0,0,34,258,0.023,0,0,0,0,0,0.2412,BODY
+"The formatting engine operates directly on the underlying OpenXML elements, modifying style properties without altering a single character of the author's prose. This absolute preservation guarantee is vital for academic integrity and publication compliance.",10.5,0,0,0,34,258,0.023,0,0,0,0,0,0.7672,BODY
+"The formatting engine operates directly on the underlying OpenXML elements, modifying style properties without altering a single character of the author's prose. This absolute preservation guarantee is vital for academic integrity and publication compliance.",11.5,0,0,3,34,258,0.023,0,0,0,0,0,0.936,BODY
+Figure 1: High-level architectural pipeline of the IntelliFormat offline system.,9.0,1,0,1,10,80,0.05,0,0,1,0,0,0.8135,CAPTION
+Figure 1: High-level architectural pipeline of the IntelliFormat offline system.,10.5,1,1,1,10,80,0.05,0,0,1,0,0,0.3364,CAPTION
+Figure 1: High-level architectural pipeline of the IntelliFormat offline system.,9.0,1,0,1,10,80,0.05,0,0,1,0,0,0.3352,CAPTION
+Figure 2: Confusion matrix showing multi-class classification accuracy across 9 structural categories.,10.0,1,0,0,12,102,0.02,0,0,1,0,0,0.2211,CAPTION
+Figure 2: Confusion matrix showing multi-class classification accuracy across 9 structural categories.,10.0,0,1,0,12,102,0.02,0,0,1,0,0,0.3977,CAPTION
+Figure 2: Confusion matrix showing multi-class classification accuracy across 9 structural categories.,9.0,0,0,0,12,102,0.02,0,0,1,0,0,0.4432,CAPTION
+Fig. 3. Memory consumption curves during continuous processing of a 400-page manuscript.,9.0,1,0,1,12,88,0.023,0,0,1,0,0,0.6475,CAPTION
+Fig. 3. Memory consumption curves during continuous processing of a 400-page manuscript.,9.0,1,1,1,12,88,0.023,0,0,1,0,0,0.1531,CAPTION
+Fig. 3. Memory consumption curves during continuous processing of a 400-page manuscript.,10.5,0,1,1,12,88,0.023,0,0,1,0,0,0.3485,CAPTION
+Figure 4: Comparison of raw unformatted manuscript layout against standardized publication layout.,10.0,0,0,0,12,98,0.02,0,0,1,0,0,0.4731,CAPTION
+Figure 4: Comparison of raw unformatted manuscript layout against standardized publication layout.,9.0,1,0,1,12,98,0.02,0,0,1,0,0,0.8842,CAPTION
+Figure 4: Comparison of raw unformatted manuscript layout against standardized publication layout.,9.5,0,1,1,12,98,0.02,0,0,1,0,0,0.852,CAPTION
+Table 1: Hyperparameter configuration for the RandomForestClassifier baseline.,10.5,1,0,1,8,78,0.064,0,0,0,1,0,0.686,CAPTION
+Table 1: Hyperparameter configuration for the RandomForestClassifier baseline.,10.5,1,1,0,8,78,0.064,0,0,0,1,0,0.3414,CAPTION
+Table 1: Hyperparameter configuration for the RandomForestClassifier baseline.,9.0,1,1,1,8,78,0.064,0,0,0,1,0,0.3296,CAPTION
+"Table 2: Precision, recall, and F1-score evaluation metrics across all paragraph classes.",10.5,0,1,1,12,89,0.034,0,0,0,1,0,0.3744,CAPTION
+"Table 2: Precision, recall, and F1-score evaluation metrics across all paragraph classes.",9.0,1,1,1,12,89,0.034,0,0,0,1,0,0.463,CAPTION
+"Table 2: Precision, recall, and F1-score evaluation metrics across all paragraph classes.",9.0,1,0,0,12,89,0.034,0,0,0,1,0,0.1524,CAPTION
+"Table 3: Benchmark latency across 100, 200, and 400 page document corpora.",10.5,0,0,1,12,74,0.027,0,0,0,1,0,0.8583,CAPTION
+"Table 3: Benchmark latency across 100, 200, and 400 page document corpora.",9.5,1,0,1,12,74,0.027,0,0,0,1,0,0.4635,CAPTION
+"Table 3: Benchmark latency across 100, 200, and 400 page document corpora.",9.5,0,1,1,12,74,0.027,0,0,0,1,0,0.1303,CAPTION
+Figure 5: Precision-recall trade-off curves for chapter and subheading classification.,9.0,0,1,1,10,86,0.023,0,0,1,0,0,0.1355,CAPTION
+Figure 5: Precision-recall trade-off curves for chapter and subheading classification.,9.0,1,1,0,10,86,0.023,0,0,1,0,0,0.3733,CAPTION
+Figure 5: Precision-recall trade-off curves for chapter and subheading classification.,9.5,0,0,0,10,86,0.023,0,0,1,0,0,0.6367,CAPTION
+Fig. 6. Distribution of paragraph length and uppercase ratios in academic manuscripts.,9.5,0,1,0,12,86,0.023,0,0,1,0,0,0.2693,CAPTION
+Fig. 6. Distribution of paragraph length and uppercase ratios in academic manuscripts.,9.5,1,0,1,12,86,0.023,0,0,1,0,0,0.8242,CAPTION
+Fig. 6. Distribution of paragraph length and uppercase ratios in academic manuscripts.,9.0,1,0,1,12,86,0.023,0,0,1,0,0,0.4805,CAPTION
+Table 4: Summary of system resource utilization during peak batch processing.,9.0,0,1,0,11,77,0.026,0,0,0,1,0,0.7182,CAPTION
+Table 4: Summary of system resource utilization during peak batch processing.,10.0,0,1,1,11,77,0.026,0,0,0,1,0,0.6414,CAPTION
+Table 4: Summary of system resource utilization during peak batch processing.,9.5,1,0,0,11,77,0.026,0,0,0,1,0,0.1553,CAPTION
+"[1] Knuth, D. E. (1984). The TeXbook. Addison-Wesley, Reading, Massachusetts.",9.0,0,0,0,10,77,0.13,0,0,0,0,1,0.9094,REFERENCE
+"[1] Knuth, D. E. (1984). The TeXbook. Addison-Wesley, Reading, Massachusetts.",10.5,0,0,0,10,77,0.13,0,0,0,0,1,0.9507,REFERENCE
+"[1] Knuth, D. E. (1984). The TeXbook. Addison-Wesley, Reading, Massachusetts.",9.0,0,0,0,10,77,0.13,0,0,0,0,1,0.9871,REFERENCE
+"[1] Knuth, D. E. (1984). The TeXbook. Addison-Wesley, Reading, Massachusetts.",9.0,0,0,0,10,77,0.13,0,0,0,0,1,0.9516,REFERENCE
+"[2] Lamport, L. (1994). LaTeX: A Document Preparation System. Addison-Wesley Professional, 2nd edition.",9.0,0,0,0,13,103,0.117,0,0,0,0,1,0.9754,REFERENCE
+"[2] Lamport, L. (1994). LaTeX: A Document Preparation System. Addison-Wesley Professional, 2nd edition.",10.5,0,0,0,13,103,0.117,0,0,0,0,1,0.962,REFERENCE
+"[2] Lamport, L. (1994). LaTeX: A Document Preparation System. Addison-Wesley Professional, 2nd edition.",10.0,0,0,0,13,103,0.117,0,0,0,0,1,0.9554,REFERENCE
+"[2] Lamport, L. (1994). LaTeX: A Document Preparation System. Addison-Wesley Professional, 2nd edition.",9.0,0,0,0,13,103,0.117,0,0,0,0,1,0.9604,REFERENCE
+"[3] Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32. doi:10.1023/A:1010933404324.",10.5,0,0,0,11,99,0.071,0,0,0,0,1,0.9193,REFERENCE
+"[3] Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32. doi:10.1023/A:1010933404324.",10.5,0,0,0,11,99,0.071,0,0,0,0,1,0.8783,REFERENCE
+"[3] Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32. doi:10.1023/A:1010933404324.",9.0,0,0,0,11,99,0.071,0,0,0,0,1,0.9361,REFERENCE
+"[3] Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32. doi:10.1023/A:1010933404324.",9.0,0,0,0,11,99,0.071,0,0,0,0,1,0.9043,REFERENCE
+"[4] Quinlan, J. R. (1993). C4.5: Programs for Machine Learning. Morgan Kaufmann Publishers.",10.5,0,0,0,13,91,0.11,0,0,0,0,1,0.8575,REFERENCE
+"[4] Quinlan, J. R. (1993). C4.5: Programs for Machine Learning. Morgan Kaufmann Publishers.",10.5,0,0,0,13,91,0.11,0,0,0,0,1,0.9835,REFERENCE
+"[4] Quinlan, J. R. (1993). C4.5: Programs for Machine Learning. Morgan Kaufmann Publishers.",10.0,0,0,0,13,91,0.11,0,0,0,0,1,0.9705,REFERENCE
+"[4] Quinlan, J. R. (1993). C4.5: Programs for Machine Learning. Morgan Kaufmann Publishers.",10.5,0,0,0,13,91,0.11,0,0,0,0,1,0.8891,REFERENCE
+[5] ISO/IEC 29500-1:2016. Information technology — Document description and processing languages — Office Open XML File Formats.,10.0,0,0,0,17,128,0.117,0,0,0,0,1,0.926,REFERENCE
+[5] ISO/IEC 29500-1:2016. Information technology — Document description and processing languages — Office Open XML File Formats.,10.0,0,0,0,17,128,0.117,0,0,0,0,1,0.9615,REFERENCE
+[5] ISO/IEC 29500-1:2016. Information technology — Document description and processing languages — Office Open XML File Formats.,9.0,0,0,0,17,128,0.117,0,0,0,0,1,0.9035,REFERENCE
+[5] ISO/IEC 29500-1:2016. Information technology — Document description and processing languages — Office Open XML File Formats.,9.0,0,0,0,17,128,0.117,0,0,0,0,1,0.8637,REFERENCE
+"[6] Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.",9.0,0,0,0,18,128,0.078,0,0,0,0,1,0.9881,REFERENCE
+"[6] Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.",10.5,0,0,0,18,128,0.078,0,0,0,0,1,0.9655,REFERENCE
+"[6] Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.",10.0,0,0,0,18,128,0.078,0,0,0,0,1,0.8701,REFERENCE
+"[6] Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.",10.5,0,0,0,18,128,0.078,0,0,0,0,1,0.9707,REFERENCE
+"[7] Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.",10.5,0,0,0,16,101,0.129,0,0,0,0,1,0.9149,REFERENCE
+"[7] Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.",9.0,0,0,0,16,101,0.129,0,0,0,0,1,0.8975,REFERENCE
+"[7] Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.",10.5,0,0,0,16,101,0.129,0,0,0,0,1,0.8558,REFERENCE
+"[7] Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.",10.5,0,0,0,16,101,0.129,0,0,0,0,1,0.976,REFERENCE
+"[8] Vaswani, A., et al. (2017). Attention is All You Need. Advances in Neural Information Processing Systems 30.",10.0,0,0,0,18,112,0.098,0,0,0,0,1,0.9937,REFERENCE
+"[8] Vaswani, A., et al. (2017). Attention is All You Need. Advances in Neural Information Processing Systems 30.",9.0,0,0,0,18,112,0.098,0,0,0,0,1,0.9106,REFERENCE
+"[8] Vaswani, A., et al. (2017). Attention is All You Need. Advances in Neural Information Processing Systems 30.",10.0,0,0,0,18,112,0.098,0,0,0,0,1,0.8621,REFERENCE
+"[8] Vaswani, A., et al. (2017). Attention is All You Need. Advances in Neural Information Processing Systems 30.",9.0,0,0,0,18,112,0.098,0,0,0,0,1,0.9547,REFERENCE
+"[9] Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), 379-423.",10.5,0,0,0,16,113,0.097,0,0,0,0,1,0.8931,REFERENCE
+"[9] Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), 379-423.",9.0,0,0,0,16,113,0.097,0,0,0,0,1,0.9931,REFERENCE
+"[9] Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), 379-423.",10.0,0,0,0,16,113,0.097,0,0,0,0,1,0.904,REFERENCE
+"[9] Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), 379-423.",10.0,0,0,0,16,113,0.097,0,0,0,0,1,0.9019,REFERENCE
+"[10] Turing, A. M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society.",9.0,0,0,0,20,146,0.082,0,0,0,0,1,0.9129,REFERENCE
+"[10] Turing, A. M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society.",10.5,0,0,0,20,146,0.082,0,0,0,0,1,0.9697,REFERENCE
+"[10] Turing, A. M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society.",10.5,0,0,0,20,146,0.082,0,0,0,0,1,0.9967,REFERENCE
+"[10] Turing, A. M. (1936). On Computable Numbers, with an Application to the Entscheidungsproblem. Proceedings of the London Mathematical Society.",10.5,0,0,0,20,146,0.082,0,0,0,0,1,0.8876,REFERENCE
+1. Initialize the OpenXML DOM parser and validate the underlying container structure.,12.0,0,0,0,12,85,0.094,1,0,0,0,0,0.4798,NUMBERED_LIST
+1. Initialize the OpenXML DOM parser and validate the underlying container structure.,10.5,0,0,0,12,85,0.094,1,0,0,0,0,0.1116,NUMBERED_LIST
+1. Initialize the OpenXML DOM parser and validate the underlying container structure.,11.0,0,0,0,12,85,0.094,1,0,0,0,0,0.2975,NUMBERED_LIST
+2. Extract run-level typographic metrics and paragraph bounding attributes.,11.0,0,0,0,9,75,0.013,1,0,0,0,0,0.5809,NUMBERED_LIST
+2. Extract run-level typographic metrics and paragraph bounding attributes.,10.5,0,0,0,9,75,0.013,1,0,0,0,0,0.3563,NUMBERED_LIST
+2. Extract run-level typographic metrics and paragraph bounding attributes.,10.5,0,0,0,9,75,0.013,1,0,0,0,0,0.5595,NUMBERED_LIST
+3. Construct the 36-dimensional feature vector for each text segment.,12.0,0,0,0,10,69,0.014,1,0,0,0,0,0.3496,NUMBERED_LIST
+3. Construct the 36-dimensional feature vector for each text segment.,11.0,0,0,0,10,69,0.014,1,0,0,0,0,0.475,NUMBERED_LIST
+3. Construct the 36-dimensional feature vector for each text segment.,11.0,0,0,0,10,69,0.014,1,0,0,0,0,0.5034,NUMBERED_LIST
+4. Apply the trained offline Random Forest classifier to compute class posterior probabilities.,12.0,0,0,0,13,95,0.032,1,0,0,0,0,0.8189,NUMBERED_LIST
+4. Apply the trained offline Random Forest classifier to compute class posterior probabilities.,10.5,0,0,0,13,95,0.032,1,0,0,0,0,0.4522,NUMBERED_LIST
+4. Apply the trained offline Random Forest classifier to compute class posterior probabilities.,11.0,0,0,0,13,95,0.032,1,0,0,0,0,0.794,NUMBERED_LIST
+5. Reconcile predictions against deterministic structural and contextual heuristics.,12.0,0,0,0,9,84,0.012,1,0,0,0,0,0.4201,NUMBERED_LIST
+5. Reconcile predictions against deterministic structural and contextual heuristics.,12.0,0,0,0,9,84,0.012,1,0,0,0,0,0.536,NUMBERED_LIST
+5. Reconcile predictions against deterministic structural and contextual heuristics.,11.0,0,0,0,9,84,0.012,1,0,0,0,0,0.2128,NUMBERED_LIST
+6. Transform document styles in-place according to target publication specifications.,12.0,0,0,0,10,85,0.012,1,0,0,0,0,0.1283,NUMBERED_LIST
+6. Transform document styles in-place according to target publication specifications.,12.0,0,0,0,10,85,0.012,1,0,0,0,0,0.2904,NUMBERED_LIST
+6. Transform document styles in-place according to target publication specifications.,10.5,0,0,0,10,85,0.012,1,0,0,0,0,0.7693,NUMBERED_LIST
+7. Stream the standardized document payload to disk without duplicating memory buffers.,11.0,0,0,0,12,87,0.011,1,0,0,0,0,0.1738,NUMBERED_LIST
+7. Stream the standardized document payload to disk without duplicating memory buffers.,12.0,0,0,0,12,87,0.011,1,0,0,0,0,0.3982,NUMBERED_LIST
+7. Stream the standardized document payload to disk without duplicating memory buffers.,12.0,0,0,0,12,87,0.011,1,0,0,0,0,0.7768,NUMBERED_LIST
+1) Ensure all margins comply with standard publisher guidelines.,10.5,0,0,0,9,64,0.016,1,0,0,0,0,0.1789,NUMBERED_LIST
+1) Ensure all margins comply with standard publisher guidelines.,12.0,0,0,0,9,64,0.016,1,0,0,0,0,0.6543,NUMBERED_LIST
+1) Ensure all margins comply with standard publisher guidelines.,10.5,0,0,0,9,64,0.016,1,0,0,0,0,0.5467,NUMBERED_LIST
+2) Set line spacing to exactly 1.5 across all body paragraphs.,10.5,0,0,0,11,62,0.016,1,0,0,0,0,0.4696,NUMBERED_LIST
+2) Set line spacing to exactly 1.5 across all body paragraphs.,12.0,0,0,0,11,62,0.016,1,0,0,0,0,0.6487,NUMBERED_LIST
+2) Set line spacing to exactly 1.5 across all body paragraphs.,10.5,0,0,0,11,62,0.016,1,0,0,0,0,0.7891,NUMBERED_LIST
+3) Enforce 1.27 cm first-line indentation for standard narrative prose.,10.5,0,0,0,10,71,0.014,1,0,0,0,0,0.4286,NUMBERED_LIST
+3) Enforce 1.27 cm first-line indentation for standard narrative prose.,11.0,0,0,0,10,71,0.014,1,0,0,0,0,0.116,NUMBERED_LIST
+3) Enforce 1.27 cm first-line indentation for standard narrative prose.,10.5,0,0,0,10,71,0.014,1,0,0,0,0,0.5242,NUMBERED_LIST
+"• Zero dependence on cloud APIs, internet connectivity, or generative language models.",10.5,0,0,0,12,86,0.047,0,0,0,0,0,0.3188,BULLET_LIST
+"• Zero dependence on cloud APIs, internet connectivity, or generative language models.",11.0,0,0,0,12,86,0.047,0,0,0,0,0,0.7392,BULLET_LIST
+"• Zero dependence on cloud APIs, internet connectivity, or generative language models.",12.0,0,0,0,12,86,0.047,0,0,0,0,0,0.2547,BULLET_LIST
+• High-throughput execution handling 400+ page manuscripts in under 5 seconds.,11.0,0,0,0,11,78,0.013,0,0,0,0,0,0.2781,BULLET_LIST
+• High-throughput execution handling 400+ page manuscripts in under 5 seconds.,12.0,0,0,0,11,78,0.013,0,0,0,0,0,0.3565,BULLET_LIST
+• High-throughput execution handling 400+ page manuscripts in under 5 seconds.,10.5,0,0,0,11,78,0.013,0,0,0,0,0,0.3477,BULLET_LIST
+• Strict preservation guarantee: zero alterations to the author's original words.,10.5,0,0,0,11,81,0.012,0,0,0,0,0,0.3933,BULLET_LIST
+• Strict preservation guarantee: zero alterations to the author's original words.,10.5,0,0,0,11,81,0.012,0,0,0,0,0,0.1,BULLET_LIST
+• Strict preservation guarantee: zero alterations to the author's original words.,10.5,0,0,0,11,81,0.012,0,0,0,0,0,0.1139,BULLET_LIST
+• Deterministic rule-based fallback when statistical confidence falls below threshold.,12.0,0,0,0,10,86,0.012,0,0,0,0,0,0.4778,BULLET_LIST
+• Deterministic rule-based fallback when statistical confidence falls below threshold.,11.0,0,0,0,10,86,0.012,0,0,0,0,0,0.7496,BULLET_LIST
+• Deterministic rule-based fallback when statistical confidence falls below threshold.,11.0,0,0,0,10,86,0.012,0,0,0,0,0,0.2347,BULLET_LIST
+• Comprehensive test suite verifying formatting compliance and margin accuracy.,12.0,0,0,0,10,79,0.013,0,0,0,0,0,0.7612,BULLET_LIST
+• Comprehensive test suite verifying formatting compliance and margin accuracy.,10.5,0,0,0,10,79,0.013,0,0,0,0,0,0.1071,BULLET_LIST
+• Comprehensive test suite verifying formatting compliance and margin accuracy.,10.5,0,0,0,10,79,0.013,0,0,0,0,0,0.4884,BULLET_LIST
+- Compliant with standard academic press and conference proceedings formatting.,10.5,0,0,0,10,79,0.013,0,0,0,0,0,0.6891,BULLET_LIST
+- Compliant with standard academic press and conference proceedings formatting.,11.0,0,0,0,10,79,0.013,0,0,0,0,0,0.3968,BULLET_LIST
+- Compliant with standard academic press and conference proceedings formatting.,10.5,0,0,0,10,79,0.013,0,0,0,0,0,0.3166,BULLET_LIST
+- Support for nested table extraction and cross-reference caption alignment.,11.0,0,0,0,10,76,0.013,0,0,0,0,0,0.6983,BULLET_LIST
+- Support for nested table extraction and cross-reference caption alignment.,11.0,0,0,0,10,76,0.013,0,0,0,0,0,0.678,BULLET_LIST
+- Support for nested table extraction and cross-reference caption alignment.,11.0,0,0,0,10,76,0.013,0,0,0,0,0,0.6052,BULLET_LIST
+* Complete preservation of author typography intent where semantically valid.,12.0,0,0,0,10,77,0.013,0,0,0,0,0,0.5872,BULLET_LIST
+* Complete preservation of author typography intent where semantically valid.,11.0,0,0,0,10,77,0.013,0,0,0,0,0,0.7724,BULLET_LIST
+* Complete preservation of author typography intent where semantically valid.,11.0,0,0,0,10,77,0.013,0,0,0,0,0,0.7699,BULLET_LIST
+• Transparent feature importance logging and confusion matrix telemetry.,12.0,0,0,0,9,72,0.014,0,0,0,0,0,0.5185,BULLET_LIST
+• Transparent feature importance logging and confusion matrix telemetry.,12.0,0,0,0,9,72,0.014,0,0,0,0,0,0.5065,BULLET_LIST
+• Transparent feature importance logging and confusion matrix telemetry.,11.0,0,0,0,9,72,0.014,0,0,0,0,0,0.7899,BULLET_LIST
+- Automatic Table of Contents generation derived from detected chapter hierarchy.,12.0,0,0,0,11,81,0.037,0,0,0,0,0,0.7371,BULLET_LIST
+- Automatic Table of Contents generation derived from detected chapter hierarchy.,12.0,0,0,0,11,81,0.037,0,0,0,0,0,0.6441,BULLET_LIST
+- Automatic Table of Contents generation derived from detected chapter hierarchy.,12.0,0,0,0,11,81,0.037,0,0,0,0,0,0.6735,BULLET_LIST

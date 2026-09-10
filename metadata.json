@@ -1,0 +1,6 @@
+{
+  "name": "IntelliFormat",
+  "description": "Offline machine learning and rule-based document analysis and publication formatting system for DOCX manuscripts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

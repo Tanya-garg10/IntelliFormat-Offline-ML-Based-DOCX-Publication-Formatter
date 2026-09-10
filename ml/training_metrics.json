@@ -1,0 +1,237 @@
+{
+  "model_type": "RandomForestClassifier",
+  "total_samples": 273,
+  "train_samples": 218,
+  "test_samples": 55,
+  "num_features": 39,
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "precision_weighted": 1.0,
+  "recall_macro": 1.0,
+  "recall_weighted": 1.0,
+  "f1_macro": 1.0,
+  "f1_weighted": 1.0,
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "labels": [
+    "AUTHOR",
+    "BODY",
+    "BULLET_LIST",
+    "CAPTION",
+    "CHAPTER_HEADING",
+    "NUMBERED_LIST",
+    "REFERENCE",
+    "SUBHEADING",
+    "TITLE"
+  ],
+  "classification_report": {
+    "AUTHOR": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2
+    },
+    "BODY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10
+    },
+    "BULLET_LIST": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6
+    },
+    "CAPTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6
+    },
+    "CHAPTER_HEADING": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7
+    },
+    "NUMBERED_LIST": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6
+    },
+    "REFERENCE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8
+    },
+    "SUBHEADING": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8
+    },
+    "TITLE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 55
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 55
+    }
+  },
+  "top_features": [
+    [
+      "paragraph_index",
+      0.1397
+    ],
+    [
+      "uppercase_ratio",
+      0.0733
+    ],
+    [
+      "position_ratio",
+      0.0665
+    ],
+    [
+      "word_count",
+      0.0636
+    ],
+    [
+      "starts_with_chapter",
+      0.0633
+    ],
+    [
+      "digit_ratio",
+      0.0524
+    ],
+    [
+      "char_count",
+      0.0522
+    ],
+    [
+      "font_size",
+      0.0519
+    ],
+    [
+      "starts_with_numbered_list",
+      0.0467
+    ],
+    [
+      "has_reference_pattern",
+      0.0435
+    ]
+  ]
+}

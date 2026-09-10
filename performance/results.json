@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-09-09T14:53:28Z",
+  "scales_tested": [
+    100,
+    200,
+    400
+  ],
+  "results": [
+    {
+      "page_scale": 100,
+      "paragraphs_processed": 332,
+      "tables_processed": 3,
+      "figures_processed": 6,
+      "elapsed_time_seconds": 15.81,
+      "throughput_paragraphs_per_sec": 21.0,
+      "peak_memory_mb": 249.7,
+      "memory_delta_mb": 170.8,
+      "detected_structures": {
+        "TITLE": 1,
+        "AUTHOR": 1,
+        "CHAPTER_HEADING": 4,
+        "SUBHEADING": 9,
+        "BODY": 297,
+        "CAPTION": 6,
+        "REFERENCE": 14
+      }
+    },
+    {
+      "page_scale": 200,
+      "paragraphs_processed": 648,
+      "tables_processed": 6,
+      "figures_processed": 13,
+      "elapsed_time_seconds": 27.205,
+      "throughput_paragraphs_per_sec": 23.8,
+      "peak_memory_mb": 261.0,
+      "memory_delta_mb": 6.2,
+      "detected_structures": {
+        "TITLE": 1,
+        "AUTHOR": 1,
+        "CHAPTER_HEADING": 7,
+        "SUBHEADING": 18,
+        "BODY": 594,
+        "CAPTION": 13,
+        "REFERENCE": 14
+      }
+    },
+    {
+      "page_scale": 400,
+      "paragraphs_processed": 1265,
+      "tables_processed": 13,
+      "figures_processed": 26,
+      "elapsed_time_seconds": 52.37,
+      "throughput_paragraphs_per_sec": 24.2,
+      "peak_memory_mb": 280.3,
+      "memory_delta_mb": 16.1,
+      "detected_structures": {
+        "TITLE": 1,
+        "AUTHOR": 1,
+        "CHAPTER_HEADING": 14,
+        "SUBHEADING": 39,
+        "BODY": 1170,
+        "CAPTION": 26,
+        "REFERENCE": 14
+      }
+    }
+  ],
+  "system_info": {
+    "python_version": "3.11.2",
+    "cpu_count": 2,
+    "total_physical_memory_mb": 4096.0
+  }
+}
