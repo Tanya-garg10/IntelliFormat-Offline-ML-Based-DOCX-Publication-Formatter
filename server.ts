@@ -169,7 +169,10 @@ async function startServer() {
     next();
   });
 
-  if (process.env.NODE_ENV !== "production") {
+  // Force production mode on Render
+  const isProduction = process.env.NODE_ENV === "production" || process.env.RENDER === "true";
+
+  if (!isProduction) {
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",

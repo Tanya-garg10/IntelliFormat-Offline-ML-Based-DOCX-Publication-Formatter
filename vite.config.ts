@@ -79,7 +79,7 @@ export default defineConfig(() => {
       // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
       // Allow all hosts for production deployment
-      allowedHosts: true,
+      allowedHosts: ['intelliformat-offline-ml-based-docx.onrender.com', '.onrender.com', 'localhost'],
       host: true,
     },
   };
