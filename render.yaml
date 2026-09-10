@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: intelliformat
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+    disk:
+      - name: uploads
+        mountPath: /app/uploads
+        sizeGB: 1
+      - name: output
+        mountPath: /app/output
+        sizeGB: 1
