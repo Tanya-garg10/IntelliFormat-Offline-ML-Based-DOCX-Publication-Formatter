@@ -8,13 +8,13 @@ WORKDIR /app
 
 # Copy package files
 COPY package*.json ./
-COPY requirements.txt ./
+COPY requirements-cloud.txt ./
 
 # Install Node dependencies
 RUN npm install
 
 # Install Python dependencies using pip with --break-system-packages for Alpine
-RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt
+RUN pip3 install --no-cache-dir --break-system-packages -r requirements-cloud.txt
 
 # Copy application code
 COPY . .
@@ -31,8 +31,8 @@ RUN apk add --no-cache python3 py3-pip python3-dev gcc g++ musl-dev
 WORKDIR /app
 
 # Copy Python requirements and install
-COPY requirements.txt ./
-RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt
+COPY requirements-cloud.txt ./
+RUN pip3 install --no-cache-dir --break-system-packages -r requirements-cloud.txt
 
 # Copy built frontend from builder
 COPY --from=builder /app/dist ./dist
@@ -42,14 +42,13 @@ COPY --from=builder /app/server.ts ./
 COPY --from=builder /app/tsconfig.json ./
 COPY --from=builder /app/vite.config.ts ./
 
-# Copy Python application files
+# Copy Python application files (excluding GUI for cloud deployment)
 COPY --from=builder /app/app.py ./
 COPY --from=builder /app/server_api.py ./
 COPY --from=builder /app/ml ./ml
 COPY --from=builder /app/parser ./parser
 COPY --from=builder /app/formatter ./formatter
 COPY --from=builder /app/rules ./rules
-COPY --from=builder /app/gui ./gui
 COPY --from=builder /app/evaluation ./evaluation
 COPY --from=builder /app/performance ./performance
 COPY --from=builder /app/dataset ./dataset

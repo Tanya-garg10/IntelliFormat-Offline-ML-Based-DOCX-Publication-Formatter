@@ -28,6 +28,8 @@ vercel --prod
 4. Use `render.yaml` configuration (already included)
 5. Deploy with one click
 
+**Note:** Cloud deployment uses `requirements-cloud.txt` (without PySide6 GUI) for Alpine Linux compatibility.
+
 ---
 
 ## Desktop Application Deployment 💻
