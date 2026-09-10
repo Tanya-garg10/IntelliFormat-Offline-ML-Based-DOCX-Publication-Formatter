@@ -60,6 +60,7 @@ async function runPythonApi(action: string, extraArgs: string[] = []): Promise<a
   try {
     const { stdout, stderr } = await execFileAsync("python3", args, {
       maxBuffer: 20 * 1024 * 1024,
+      timeout: 120000, // 2 minute timeout
     });
     if (stderr && !stdout) {
       console.error("Python API stderr:", stderr);
@@ -73,6 +74,7 @@ async function runPythonApi(action: string, extraArgs: string[] = []): Promise<a
       try {
         const retryResult = await execFileAsync("python3", args, {
           maxBuffer: 20 * 1024 * 1024,
+          timeout: 120000,
         });
         return JSON.parse(retryResult.stdout.trim());
       } catch (retryErr: any) {
@@ -87,7 +89,14 @@ async function runPythonApi(action: string, extraArgs: string[] = []): Promise<a
 
 // API Routes FIRST
 app.get("/api/health", (_req, res) => {
-  res.json({ status: "ok", offline: true, engine: "IntelliFormat v1.0" });
+  res.json({
+    status: "ok",
+    offline: true,
+    engine: "IntelliFormat v1.0",
+    env: process.env.NODE_ENV,
+    render: process.env.RENDER,
+    uptime: process.uptime()
+  });
 });
 
 app.post("/api/upload", upload.single("manuscript"), async (req, res) => {
@@ -158,37 +167,56 @@ app.get("/api/download", (req, res) => {
 });
 
 async function startServer() {
-  // Proactively verify and ensure python dependencies in background
-  bootstrapPromise = ensurePythonEnvironment();
+  try {
+    console.log('Starting IntelliFormat server...');
+    console.log('Node environment:', process.env.NODE_ENV);
+    console.log('Render environment:', process.env.RENDER);
+    console.log('Working directory:', process.cwd());
 
-  // Add security headers for production
-  app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-    next();
-  });
-
-  // Force production mode on Render
-  const isProduction = process.env.NODE_ENV === "production" || process.env.RENDER === "true";
-
-  if (!isProduction) {
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: "spa",
-    });
-    app.use(vite.middlewares);
-  } else {
+    // Verify dist folder exists
     const distPath = path.join(process.cwd(), "dist");
-    app.use(express.static(distPath));
-    app.get("*", (_req, res) => {
-      res.sendFile(path.join(distPath, "index.html"));
-    });
-  }
+    if (!fs.existsSync(distPath)) {
+      console.error('Dist folder not found:', distPath);
+      process.exit(1);
+    }
+    console.log('Dist folder exists:', distPath);
 
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`IntelliFormat server running on port ${PORT}`);
-  });
+    // Proactively verify and ensure python dependencies in background
+    bootstrapPromise = ensurePythonEnvironment();
+
+    // Add security headers for production
+    app.use((req, res, next) => {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+      next();
+    });
+
+    // Force production mode on Render
+    const isProduction = process.env.NODE_ENV === "production" || process.env.RENDER === "true";
+    console.log('Production mode:', isProduction);
+
+    if (!isProduction) {
+      const vite = await createViteServer({
+        server: { middlewareMode: true },
+        appType: "spa",
+      });
+      app.use(vite.middlewares);
+    } else {
+      app.use(express.static(distPath));
+      app.get("*", (_req, res) => {
+        res.sendFile(path.join(distPath, "index.html"));
+      });
+    }
+
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`IntelliFormat server running on port ${PORT}`);
+      console.log('Server started successfully');
+    });
+  } catch (error) {
+    console.error('Failed to start server:', error);
+    process.exit(1);
+  }
 }
 
 startServer();
