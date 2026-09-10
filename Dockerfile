@@ -13,8 +13,8 @@ COPY requirements.txt ./
 # Install Node dependencies
 RUN npm install
 
-# Install Python dependencies
-RUN pip3 install --no-cache-dir -r requirements.txt
+# Install Python dependencies using pip with --break-system-packages for Alpine
+RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt
 
 # Copy application code
 COPY . .
@@ -32,7 +32,7 @@ WORKDIR /app
 
 # Copy Python requirements and install
 COPY requirements.txt ./
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt
 
 # Copy built frontend from builder
 COPY --from=builder /app/dist ./dist
