@@ -34,13 +34,10 @@ WORKDIR /app
 COPY requirements-cloud.txt ./
 RUN pip3 install --no-cache-dir --break-system-packages -r requirements-cloud.txt
 
-# Copy built frontend from builder
+# Copy built frontend from builder (includes both frontend and server)
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/server.ts ./
-COPY --from=builder /app/tsconfig.json ./
-COPY --from=builder /app/vite.config.ts ./
 
 # Copy Python application files (excluding GUI for cloud deployment)
 COPY --from=builder /app/app.py ./
@@ -56,9 +53,6 @@ COPY --from=builder /app/samples ./samples
 
 # Create necessary directories
 RUN mkdir -p uploads output
-
-# Build the server
-RUN npm run build
 
 # Expose the application port
 EXPOSE 3000
